@@ -1,4 +1,4 @@
-24206637789558146
+24210103927081790
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88997,6 +88997,13 @@ SMD Shunt Resistor
 0
 4
 2
+Resistor_SMD
+Termistor_SMD
+
+
+0
+2
+2
 Resistor_THT
 R_Array_SIP4
 4-pin Resistor SIP pack
@@ -89949,6 +89956,13 @@ Integrated Circuit
 0
 3
 3
+SamacSys_Parts
+SOT95P280X145-5N
+MIC5504-3.3YM5-T
+Integrated Circuit
+0
+5
+5
 SamacSys_Parts
 SOT95P280X145-6N
 sot-23-6,
