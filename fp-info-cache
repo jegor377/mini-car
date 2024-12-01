@@ -1,4 +1,4 @@
-24204904774126540
+24206637789558146
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89939,6 +89939,13 @@ SamacSys_Parts
 SOT95P237X112-3N
 Micro3
 MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+SOT95P240X115-3N
+SOT-23-2
+Integrated Circuit
 0
 3
 3
