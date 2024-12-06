@@ -184,7 +184,11 @@
         0.254,
         0.3048,
         0.381,
-        0.4572
+        0.4572,
+        0.635,
+        0.762,
+        1.27,
+        5.08
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -218,8 +222,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.15,
-          "drill": 0.25
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.379,
+          "drill": 0.202
         },
         {
           "diameter": 0.508,
@@ -443,7 +451,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",

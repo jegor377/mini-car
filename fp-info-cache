@@ -1,4 +1,4 @@
-24210103927081790
+24217037722729681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1657,6 +1657,13 @@ Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https:
 switch tactile SPST 1P1T straight NO SMTR C&K
 0
 2
+2
+Button_Switch_SMD
+TSS 62 N
+
+
+0
+4
 2
 Button_Switch_THT
 KSA_Tactile_SPST
@@ -57819,6 +57826,20 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Graphics
+large_logo
+
+
+0
+0
+0
+Graphics
+small_logo
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -96045,6 +96066,13 @@ REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de
 screw terminal thread redcube thr power connector
 0
 18
+1
+TestPoint
+New TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
 1
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
