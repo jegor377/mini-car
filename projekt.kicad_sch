@@ -1719,6 +1719,662 @@
 				)
 			)
 		)
+		(symbol "NMOS_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q9"
+				(at 5.334 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3420"
+				(at 5.334 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOT95P280X125-3N"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3420"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NPN_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q7"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMSS8050-H-TP"
+				(at 4.572 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOT95P237X125-3N"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "MCC"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMSS8050-H-TP"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RF_Module:ESP32-WROOM-32E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3202,308 +3858,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:AO3420"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "AO3420"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X125-3N"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.25"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "AO3420"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "AO3420_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SamacSys_Parts:AP22814AW5-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4488,7 +4842,7 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
+		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -4496,33 +4850,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+			(property "Reference" "Q1"
+				(at 6.096 -2.032 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "AO3420"
+				(at 8.636 -2.032 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
+			(property "Footprint" "SOT95P280X125-3N"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4530,7 +4877,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4539,7 +4895,84 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3420"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4548,49 +4981,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
+			(symbol "NMOS_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -4602,10 +4996,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4614,10 +5008,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4626,7 +5020,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -4638,10 +5056,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -4650,7 +5068,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -4660,9 +5090,33 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4671,12 +5125,34 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4691,10 +5167,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4709,10 +5185,10 @@
 						)
 					)
 				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5814,12 +6290,6 @@
 		(uuid "3849cc4b-1207-447f-b5e4-6e171c9a3030")
 	)
 	(junction
-		(at 40.64 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d0b253f-f42d-46d4-bbcd-6fc2ce4dd837")
-	)
-	(junction
 		(at 48.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6211,7 +6681,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 217.17) (xy 121.92 217.17)
+			(xy 113.03 217.17) (xy 116.84 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6701,7 +7171,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 251.46) (xy 67.31 251.46)
+			(xy 58.42 251.46) (xy 62.23 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7201,16 +7671,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 251.46) (xy 100.33 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40111305-5107-4e18-925e-689565db0e36")
-	)
-	(wire
-		(pts
 			(xy 356.87 48.26) (xy 360.68 48.26)
 		)
 		(stroke
@@ -7291,7 +7751,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 67.31) (xy 214.63 76.2)
+			(xy 209.55 62.23) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7381,16 +7841,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 210.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4896ab5f-3dcc-4cfc-a706-a46bdd359efe")
-	)
-	(wire
-		(pts
 			(xy 85.09 26.67) (xy 82.55 26.67)
 		)
 		(stroke
@@ -7461,7 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 251.46) (xy 121.92 251.46)
+			(xy 113.03 251.46) (xy 116.84 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7521,7 +7971,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 217.17) (xy 110.49 217.17)
+			(xy 102.87 217.17) (xy 105.41 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7741,7 +8191,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 217.17) (xy 53.34 217.17)
+			(xy 46.99 217.17) (xy 49.53 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7788,6 +8238,16 @@
 			(type default)
 		)
 		(uuid "5f9d50d6-fa61-4e99-910d-755fb7e32125")
+	)
+	(wire
+		(pts
+			(xy 92.71 251.46) (xy 95.25 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602d3d4d-a190-4633-ba99-fe57cd532e8e")
 	)
 	(wire
 		(pts
@@ -8121,6 +8581,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72860d7d-dd79-4dde-9da1-d6cfb108daf3")
+	)
+	(wire
+		(pts
 			(xy 72.39 39.37) (xy 80.01 39.37)
 		)
 		(stroke
@@ -8151,7 +8621,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 217.17) (xy 100.33 217.17)
+			(xy 92.71 217.17) (xy 95.25 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8461,16 +8931,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 217.17) (xy 40.64 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d5801b1-5ecc-43f7-be69-c05531a8d8a7")
-	)
-	(wire
-		(pts
 			(xy 38.1 102.87) (xy 43.18 102.87)
 		)
 		(stroke
@@ -8491,7 +8951,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 217.17) (xy 43.18 217.17)
+			(xy 35.56 217.17) (xy 39.37 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8721,7 +9181,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 43.18) (xy 156.21 43.18)
+			(xy 209.55 43.18) (xy 156.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9091,7 +9551,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 251.46) (xy 44.45 251.46)
+			(xy 40.64 251.46) (xy 39.37 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9381,7 +9841,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 251.46) (xy 110.49 251.46)
+			(xy 102.87 251.46) (xy 105.41 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9621,7 +10081,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 57.15) (xy 196.85 57.15)
+			(xy 201.93 57.15) (xy 196.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9631,7 +10091,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 251.46) (xy 55.88 251.46)
+			(xy 48.26 251.46) (xy 50.8 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9851,7 +10311,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 43.18) (xy 214.63 52.07)
+			(xy 209.55 43.18) (xy 209.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10151,7 +10611,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 217.17) (xy 64.77 217.17)
+			(xy 57.15 217.17) (xy 60.96 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10534,7 +10994,7 @@
 	)
 	(text "Biała"
 		(exclude_from_sim no)
-		(at 103.632 236.728 0)
+		(at 101.092 236.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10574,7 +11034,7 @@
 	)
 	(text "Czerwona"
 		(exclude_from_sim no)
-		(at 46.99 206.248 0)
+		(at 43.18 206.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10759,7 +11219,7 @@
 		(uuid "25d77b2d-aac7-4e8c-b29c-4276b1abf349")
 	)
 	(label "PWR+"
-		(at 64.77 217.17 0)
+		(at 60.96 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10979,7 +11439,7 @@
 		(uuid "662220f5-862f-4082-839c-a6d898a015ba")
 	)
 	(label "PWR+"
-		(at 67.31 251.46 0)
+		(at 62.23 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11001,7 +11461,7 @@
 		(uuid "695545ea-5d7d-420e-8077-51480ded2334")
 	)
 	(label "PWR+"
-		(at 121.92 251.46 0)
+		(at 116.84 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11452,7 +11912,7 @@
 		(uuid "cd40dec4-3db5-4b30-9e71-64e748768a97")
 	)
 	(label "PWR+"
-		(at 121.92 217.17 0)
+		(at 116.84 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12128,6 +12588,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 34.29 248.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06539052-195c-482b-80f8-59fc45f98429")
+		(property "Reference" "Q3"
+			(at 32.258 255.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 32.258 257.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 36.83 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 21.59 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 34.29 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -364.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -464.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -564.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -664.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -764.44 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 17.145 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 15.24 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 19.05 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ed0335c-bda5-4e52-aa24-d052c25f56f5")
+		)
+		(pin "1"
+			(uuid "889cbebc-0674-4862-9724-b67ff3320b3a")
+		)
+		(pin "2"
+			(uuid "37e8d7d9-a792-4705-bcf2-3311148da250")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 77.47 52.07 180)
 		(unit 1)
@@ -12192,6 +12801,156 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NPN_1")
+		(lib_id "Simulation_SPICE:NPN")
+		(at 68.58 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b165600-6de6-4e00-a1e3-86c267c5e0ff")
+		(property "Reference" "Q8"
+			(at 73.152 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSS8050-H-TP"
+			(at 73.152 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P237X125-3N"
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 82.55 540.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 82.55 640.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 82.55 740.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 82.55 840.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSS8050-H-TP"
+			(at 82.55 940.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ccbf06c-1537-436e-b168-87a8df0899f3")
+		)
+		(pin "1"
+			(uuid "83f061b1-258f-42db-879d-f48b9f98e653")
+		)
+		(pin "3"
+			(uuid "872b2295-5f5e-431a-aa73-faaba030be71")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -12264,7 +13023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
 		(at 207.01 57.15 0)
 		(mirror x)
 		(unit 1)
@@ -12274,7 +13034,7 @@
 		(dnp no)
 		(uuid "0cc54db7-de75-4954-ac64-a32e41cf4049")
 		(property "Reference" "Q9"
-			(at 216.916 53.086 0)
+			(at 212.344 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +13043,7 @@
 			)
 		)
 		(property "Value" "AO3420"
-			(at 216.916 55.626 0)
+			(at 212.344 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12292,26 +13052,24 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X125-3N"
-			(at 218.44 -41.58 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at 218.44 -141.58 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 207.01 57.15 0)
 			(effects
 				(font
@@ -12367,6 +13125,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 207.01 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12725,7 +13510,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 217.17 0)
+		(at 99.06 217.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12734,7 +13519,7 @@
 		(dnp no)
 		(uuid "15a44ff2-4f17-4f7a-8c44-ad97ae73575a")
 		(property "Reference" "D4"
-			(at 102.5525 209.55 0)
+			(at 97.4725 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +13527,7 @@
 			)
 		)
 		(property "Value" "WHITE"
-			(at 102.5525 212.09 0)
+			(at 97.4725 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12750,7 +13535,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 104.14 217.17 0)
+			(at 99.06 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +13544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 217.17 0)
+			(at 99.06 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +13553,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 104.14 217.17 0)
+			(at 99.06 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,106 +13637,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 68.58 157.48 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1648d182-f63e-414b-b70b-51ad38d0b7f1")
-		(property "Reference" "Q8"
-			(at 73.66 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050-HF"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P240X115-3N"
-			(at 132.08 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 132.08 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3c4c3f92-b0a4-48ae-99f7-0dde407bbcf9")
-		)
-		(pin "1"
-			(uuid "b671bec8-4ddf-4416-864f-c9579d2e8af4")
-		)
-		(pin "2"
-			(uuid "a0ae2c0f-e632-4c19-acad-8d6901e7e219")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13232,7 +13917,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 251.46 0)
+		(at 99.06 251.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13241,7 +13926,7 @@
 		(dnp no)
 		(uuid "210d93b4-c12d-491d-bfa7-cf8417b8abe0")
 		(property "Reference" "D5"
-			(at 102.5525 243.84 0)
+			(at 97.4725 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13249,7 +13934,7 @@
 			)
 		)
 		(property "Value" "WHITE"
-			(at 102.5525 246.38 0)
+			(at 97.4725 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13942,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 104.14 251.46 0)
+			(at 99.06 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 251.46 0)
+			(at 99.06 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13960,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 104.14 251.46 0)
+			(at 99.06 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13474,130 +14159,6 @@
 			(project ""
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
-		(at 30.48 209.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2474f01b-71a6-4cc4-9e17-6646ad532af4")
-		(property "Reference" "Q2"
-			(at 27.178 220.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3420"
-			(at 27.178 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P280X125-3N"
-			(at -68.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at -168.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-			(at 30.48 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at -368.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -468.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -568.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -668.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AO3420"
-			(at -768.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9348db6c-7a97-44f3-9229-53f0ae60d91d")
-		)
-		(pin "1"
-			(uuid "850ab495-bf3a-482f-b13c-802a13f825bd")
-		)
-		(pin "2"
-			(uuid "b807cfe6-9c62-4ef9-ab22-899aa89a965a")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14140,7 +14701,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 251.46 90)
+		(at 109.22 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14149,7 +14710,7 @@
 		(fields_autoplaced yes)
 		(uuid "3006e86f-429e-4204-ba11-a3e836876142")
 		(property "Reference" "R20"
-			(at 114.3 245.11 90)
+			(at 109.22 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +14718,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 114.3 247.65 90)
+			(at 109.22 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,7 +14726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.3 253.238 90)
+			(at 109.22 253.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14174,7 +14735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 251.46 0)
+			(at 109.22 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14183,7 +14744,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 251.46 0)
+			(at 109.22 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,130 +15043,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
-		(at 34.29 243.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34912588-a26e-4397-b4a0-50e14248b678")
-		(property "Reference" "Q4"
-			(at 30.988 254.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3420"
-			(at 30.988 257.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P280X125-3N"
-			(at -64.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at -164.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-			(at 34.29 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at -364.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -464.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -564.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -664.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AO3420"
-			(at -764.44 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3bbf2e1d-c36e-493e-873d-50417339a5c8")
-		)
-		(pin "1"
-			(uuid "32ebbe1c-5a67-412d-9c39-144c30ed6bb4")
-		)
-		(pin "2"
-			(uuid "43f6eb53-85b1-4e48-b137-82656c5c18e1")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15925,6 +16362,157 @@
 		)
 	)
 	(symbol
+		(lib_name "NPN_1")
+		(lib_id "Simulation_SPICE:NPN")
+		(at 68.58 157.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "527ea817-5c2f-478a-9c6c-53e6c7186334")
+		(property "Reference" "Q7"
+			(at 73.152 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSS8050-H-TP"
+			(at 73.152 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P237X125-3N"
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 82.55 -243.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 82.55 -343.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 82.55 -443.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 82.55 -543.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSS8050-H-TP"
+			(at 82.55 -643.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a65e3c9e-100e-4ac5-9566-5a85d2ce73af")
+		)
+		(pin "1"
+			(uuid "8ae46cd1-5611-4502-9162-fa9840c2f573")
+		)
+		(pin "3"
+			(uuid "cf54d606-94bb-4a8c-b0a4-bcf8e21745fc")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 299.72 179.07 0)
 		(mirror y)
@@ -15989,6 +16577,155 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 87.63 248.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56be8787-ebcb-4ae6-8ecc-cce93705d4f0")
+		(property "Reference" "Q4"
+			(at 85.598 255.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 85.598 257.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 90.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 74.93 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 87.63 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -311.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -411.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -511.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -611.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -711.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 70.485 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 68.58 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 72.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "68c5813a-13f9-4385-8996-9d3ae93c8804")
+		)
+		(pin "1"
+			(uuid "07bece22-b589-45f4-a3be-a52c6cb2adf6")
+		)
+		(pin "2"
+			(uuid "e36854fa-de10-4add-b6c0-c91ab38a0c9e")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16262,106 +16999,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 68.58 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ead5c5e-063b-4e7f-804e-6c6ebbb423a4")
-		(property "Reference" "Q7"
-			(at 73.66 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS8050-HF"
-			(at 73.66 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P240X115-3N"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 68.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b19a184b-9b7d-4c1e-9701-56095a8b9f91")
-		)
-		(pin "1"
-			(uuid "08b57a87-036f-42a4-8784-3d35b3707e96")
-		)
-		(pin "2"
-			(uuid "914728df-fff9-427f-923e-670368d38367")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 166.37 270.51 0)
 		(unit 1)
@@ -16495,8 +17132,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
-		(at 200.66 68.58 270)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 200.66 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16504,7 +17141,7 @@
 		(dnp no)
 		(uuid "6074b2f7-a124-4276-8b50-b233bee41cdf")
 		(property "Reference" "Q1"
-			(at 197.358 79.248 90)
+			(at 198.628 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16513,7 +17150,7 @@
 			)
 		)
 		(property "Value" "AO3420"
-			(at 197.358 81.788 90)
+			(at 198.628 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16522,27 +17159,25 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X125-3N"
-			(at 101.93 80.01 0)
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at 1.93 80.01 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-			(at 200.66 68.58 0)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16551,7 +17186,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at -198.07 80.01 0)
+			(at -198.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,7 +17196,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at -298.07 80.01 0)
+			(at -298.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16571,7 +17206,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at -398.07 80.01 0)
+			(at -398.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16581,7 +17216,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -498.07 80.01 0)
+			(at -498.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16591,12 +17226,39 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AO3420"
-			(at -598.07 80.01 0)
+			(at -598.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 183.515 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16686,7 +17348,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 46.99 217.17 0)
+		(at 43.18 217.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16695,7 +17357,7 @@
 		(dnp no)
 		(uuid "6443126d-8f82-4a01-b3a0-eaab3ebd11c4")
 		(property "Reference" "D6"
-			(at 45.4025 209.55 0)
+			(at 41.5925 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16703,7 +17365,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 45.4025 212.09 0)
+			(at 41.5925 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,7 +17373,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 46.99 217.17 0)
+			(at 43.18 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +17382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 217.17 0)
+			(at 43.18 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,7 +17391,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 46.99 217.17 0)
+			(at 43.18 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16950,130 +17612,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "AO2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
-		(at 87.63 209.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "679d4c92-3034-4914-8967-42ca7254a3da")
-		(property "Reference" "Q3"
-			(at 84.328 220.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3420"
-			(at 84.328 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P280X125-3N"
-			(at -11.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at -111.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-			(at 87.63 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at -311.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -411.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -511.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -611.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AO3420"
-			(at -711.1 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "658b8abc-34af-493d-aecb-25f867499339")
-		)
-		(pin "1"
-			(uuid "0eed2d5c-c14f-46d7-a685-bfb0ca294140")
-		)
-		(pin "2"
-			(uuid "fd1cc6df-055e-4dab-8a5c-20ebd3cf4b44")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -17484,6 +18022,155 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 30.48 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "791532d7-be74-42f8-970b-98d7d90f55c0")
+		(property "Reference" "Q6"
+			(at 28.448 220.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 28.448 223.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 17.78 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 30.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -368.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -468.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -568.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -668.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -768.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 13.335 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 11.43 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 15.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "136570de-7120-498d-9e22-1b9c63ac99b3")
+		)
+		(pin "1"
+			(uuid "968b6cde-c39a-4a86-bd9c-cb5823ce204b")
+		)
+		(pin "2"
+			(uuid "1cb384a7-e206-41ca-a21d-e45b15267249")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -18177,6 +18864,155 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 87.63 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89970a1d-5853-4ab4-ba35-bbbffaafb512")
+		(property "Reference" "Q2"
+			(at 85.598 220.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 85.598 223.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 90.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 74.93 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 87.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -311.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -411.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -511.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -611.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -711.1 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 70.485 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 68.58 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 72.39 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f17d50d7-acb1-43d9-b85c-b93afeafe302")
+		)
+		(pin "1"
+			(uuid "f14287db-2441-423c-a3cb-47bbe0a84718")
+		)
+		(pin "2"
+			(uuid "e467e55e-93db-4b10-9904-a94afefc66fe")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -19248,7 +20084,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 217.17 90)
+		(at 109.22 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19257,7 +20093,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e5e66a6-1a61-4998-89bb-93ccb1b07fa6")
 		(property "Reference" "R13"
-			(at 114.3 210.82 90)
+			(at 109.22 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19265,7 +20101,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 114.3 213.36 90)
+			(at 109.22 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19273,7 +20109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.3 218.948 90)
+			(at 109.22 218.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19282,7 +20118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 217.17 0)
+			(at 109.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,7 +20127,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 217.17 0)
+			(at 109.22 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,130 +20348,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:AO3420")
-		(at 87.63 243.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a22d4b51-0608-4758-bcc7-37232ae09610")
-		(property "Reference" "Q5"
-			(at 84.328 254.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3420"
-			(at 84.328 257.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P280X125-3N"
-			(at -11.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
-			(at -111.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
-			(at 87.63 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at -311.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -411.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -511.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at -611.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AO3420"
-			(at -711.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "156e65ec-bec6-474f-a13a-54d750704998")
-		)
-		(pin "1"
-			(uuid "ef7aae41-4daf-480f-8b42-2f4b7ef2ef82")
-		)
-		(pin "2"
-			(uuid "7b260fea-bf77-4e2a-a38a-efa0c13902df")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -20945,7 +21657,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 49.53 251.46 0)
+		(at 44.45 251.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20954,7 +21666,7 @@
 		(dnp no)
 		(uuid "b5528668-f278-4602-87eb-9cf1974629a1")
 		(property "Reference" "D7"
-			(at 47.9425 243.84 0)
+			(at 42.8625 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20962,7 +21674,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 47.9425 246.38 0)
+			(at 42.8625 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20970,7 +21682,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 49.53 251.46 0)
+			(at 44.45 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +21691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 251.46 0)
+			(at 44.45 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20988,7 +21700,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 49.53 251.46 0)
+			(at 44.45 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22396,7 +23108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 217.17 90)
+		(at 53.34 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22405,7 +23117,7 @@
 		(fields_autoplaced yes)
 		(uuid "d37372c0-d4a5-42af-8676-893031b2cad3")
 		(property "Reference" "R21"
-			(at 57.15 210.82 90)
+			(at 53.34 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22413,7 +23125,7 @@
 			)
 		)
 		(property "Value" "320"
-			(at 57.15 213.36 90)
+			(at 53.34 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22421,7 +23133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 218.948 90)
+			(at 53.34 218.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +23142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 217.17 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22439,7 +23151,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 217.17 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24485,7 +25197,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 251.46 90)
+		(at 54.61 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24494,7 +25206,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc4d1e5e-05b8-403e-a7f5-b46871cacaa4")
 		(property "Reference" "R24"
-			(at 59.69 245.11 90)
+			(at 54.61 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24502,7 +25214,7 @@
 			)
 		)
 		(property "Value" "320"
-			(at 59.69 247.65 90)
+			(at 54.61 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24510,7 +25222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 59.69 253.238 90)
+			(at 54.61 253.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24519,7 +25231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 251.46 0)
+			(at 54.61 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24528,7 +25240,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 251.46 0)
+			(at 54.61 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
