@@ -3202,6 +3202,308 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:AO3420"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AO3420"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X125-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3420"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AO3420_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:AP22814AW5-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5108,301 +5410,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -5807,6 +5814,12 @@
 		(uuid "3849cc4b-1207-447f-b5e4-6e171c9a3030")
 	)
 	(junction
+		(at 40.64 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0b253f-f42d-46d4-bbcd-6fc2ce4dd837")
+	)
+	(junction
 		(at 48.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6198,7 +6211,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 217.17) (xy 118.11 217.17)
+			(xy 118.11 217.17) (xy 121.92 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 251.46) (xy 64.77 251.46)
+			(xy 63.5 251.46) (xy 67.31 251.46)
 		)
 		(stroke
 			(width 0)
@@ -6805,16 +6818,6 @@
 			(type default)
 		)
 		(uuid "2be343d9-116a-4470-80f1-896c07687767")
-	)
-	(wire
-		(pts
-			(xy 92.71 217.17) (xy 96.52 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bfde5a8-ce53-413b-bc36-9b1bc9a28af8")
 	)
 	(wire
 		(pts
@@ -6938,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 218.44) (xy 25.4 217.17)
+			(xy 21.59 218.44) (xy 21.59 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7198,6 +7201,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 251.46) (xy 100.33 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40111305-5107-4e18-925e-689565db0e36")
+	)
+	(wire
+		(pts
 			(xy 356.87 48.26) (xy 360.68 48.26)
 		)
 		(stroke
@@ -7275,6 +7288,16 @@
 			(type default)
 		)
 		(uuid "45bda9c6-3be7-4ef9-ad66-d37214c85003")
+	)
+	(wire
+		(pts
+			(xy 214.63 67.31) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461d5222-a562-4eb3-bc47-6d969b6c3b52")
 	)
 	(wire
 		(pts
@@ -7358,7 +7381,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 205.74 76.2)
+			(xy 214.63 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7418,16 +7441,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 251.46) (xy 96.52 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a985dce-4357-495d-920e-51ca4dbea004")
-	)
-	(wire
-		(pts
 			(xy 349.25 143.51) (xy 361.95 143.51)
 		)
 		(stroke
@@ -7448,7 +7461,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 251.46) (xy 118.11 251.46)
+			(xy 118.11 251.46) (xy 121.92 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7508,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 217.17) (xy 106.68 217.17)
+			(xy 107.95 217.17) (xy 110.49 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7948,7 +7961,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 163.83 66.04)
+			(xy 147.32 66.04) (xy 153.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8018,7 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 217.17) (xy 29.21 217.17)
+			(xy 21.59 217.17) (xy 25.4 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8045,16 +8058,6 @@
 			(type default)
 		)
 		(uuid "6eef7400-2d31-44dc-9178-32f43dd393ff")
-	)
-	(wire
-		(pts
-			(xy 209.55 62.23) (xy 209.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f20fc2c-889b-4774-b71b-21c701c091b2")
 	)
 	(wire
 		(pts
@@ -8145,6 +8148,16 @@
 			(type default)
 		)
 		(uuid "75b0a94a-3e9c-41a2-8d11-1bed5cd68822")
+	)
+	(wire
+		(pts
+			(xy 97.79 217.17) (xy 100.33 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cdc701-090a-438f-b737-7566dc974ebe")
 	)
 	(wire
 		(pts
@@ -8448,7 +8461,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 217.17) (xy 43.18 217.17)
+			(xy 39.37 217.17) (xy 40.64 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8475,6 +8488,16 @@
 			(type default)
 		)
 		(uuid "8e5c0b5f-c604-4a88-896a-88af01962294")
+	)
+	(wire
+		(pts
+			(xy 40.64 217.17) (xy 43.18 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e82abc2-9d4b-434f-a57a-b9fc7274cc66")
 	)
 	(wire
 		(pts
@@ -8548,7 +8571,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 195.58) (xy 34.29 198.12)
+			(xy 30.48 195.58) (xy 30.48 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8628,7 +8651,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 205.74) (xy 34.29 209.55)
+			(xy 30.48 205.74) (xy 30.48 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8698,7 +8721,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 43.18) (xy 156.21 43.18)
+			(xy 214.63 43.18) (xy 156.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8778,7 +8801,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 195.58) (xy 34.29 195.58)
+			(xy 22.86 195.58) (xy 30.48 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9068,6 +9091,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 251.46) (xy 44.45 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29c0d1b-73a6-42f8-a2ba-420396db29ce")
+	)
+	(wire
+		(pts
 			(xy 287.02 175.26) (xy 287.02 173.99)
 		)
 		(stroke
@@ -9185,6 +9218,16 @@
 			(type default)
 		)
 		(uuid "bee4fdc3-cad4-4c2c-85dc-947801995852")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef0f683-9148-4128-b957-346a91c7f93c")
 	)
 	(wire
 		(pts
@@ -9338,23 +9381,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 251.46) (xy 106.68 251.46)
+			(xy 107.95 251.46) (xy 110.49 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9d2a05b-54d7-4ede-b1fb-57eb9b6f2b89")
-	)
-	(wire
-		(pts
-			(xy 39.37 251.46) (xy 43.18 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9e2f321-d358-4246-9cf6-15cbd2cb00ca")
 	)
 	(wire
 		(pts
@@ -9588,7 +9621,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 57.15) (xy 196.85 57.15)
+			(xy 207.01 57.15) (xy 196.85 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9598,7 +9631,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 251.46) (xy 53.34 251.46)
+			(xy 53.34 251.46) (xy 55.88 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9818,7 +9851,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 43.18) (xy 209.55 52.07)
+			(xy 214.63 43.18) (xy 214.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10451,7 +10484,7 @@
 	)
 	(text "Wcześniej jest\npullup, dlatego\nnie ma pulldown"
 		(exclude_from_sim no)
-		(at 24.638 207.518 0)
+		(at 40.386 195.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10704,7 +10737,7 @@
 		(uuid "20a64489-0563-4d65-b2b7-7959bd89aad4")
 	)
 	(label "LED2"
-		(at 26.67 195.58 0)
+		(at 22.86 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10946,7 +10979,7 @@
 		(uuid "662220f5-862f-4082-839c-a6d898a015ba")
 	)
 	(label "PWR+"
-		(at 64.77 251.46 0)
+		(at 67.31 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10968,7 +11001,7 @@
 		(uuid "695545ea-5d7d-420e-8077-51480ded2334")
 	)
 	(label "PWR+"
-		(at 118.11 251.46 0)
+		(at 121.92 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11419,7 +11452,7 @@
 		(uuid "cd40dec4-3db5-4b30-9e71-64e748768a97")
 	)
 	(label "PWR+"
-		(at 118.11 217.17 0)
+		(at 121.92 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12231,6 +12264,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 207.01 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cc54db7-de75-4954-ac64-a32e41cf4049")
+		(property "Reference" "Q9"
+			(at 216.916 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 216.916 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 218.44 -41.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at 218.44 -141.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 218.44 -341.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 218.44 -441.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 218.44 -541.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 218.44 -641.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at 218.44 -741.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c545d39f-f88f-4d7f-8f6a-143f6ea920c4")
+		)
+		(pin "1"
+			(uuid "4f825a77-c605-434c-b084-59a8f1792468")
+		)
+		(pin "2"
+			(uuid "6443e253-d0b1-440c-af9a-2bc3ff4a2979")
+		)
+		(instances
+			(project ""
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 369.57 66.04 0)
 		(mirror y)
@@ -12567,7 +12725,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 217.17 0)
+		(at 104.14 217.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12576,7 +12734,7 @@
 		(dnp no)
 		(uuid "15a44ff2-4f17-4f7a-8c44-ad97ae73575a")
 		(property "Reference" "D4"
-			(at 98.7425 209.55 0)
+			(at 102.5525 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12742,7 @@
 			)
 		)
 		(property "Value" "WHITE"
-			(at 98.7425 212.09 0)
+			(at 102.5525 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12750,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 100.33 217.17 0)
+			(at 104.14 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 217.17 0)
+			(at 104.14 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12768,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 217.17 0)
+			(at 104.14 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12793,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 218.44 0)
+		(at 21.59 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12644,7 +12802,7 @@
 		(fields_autoplaced yes)
 		(uuid "15d90e2d-28a9-47b7-bea7-015de0e30be3")
 		(property "Reference" "#PWR02"
-			(at 25.4 224.79 0)
+			(at 21.59 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,7 +12811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 223.52 0)
+			(at 21.59 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 218.44 0)
+			(at 21.59 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 218.44 0)
+			(at 21.59 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +12837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 218.44 0)
+			(at 21.59 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,79 +13022,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 87.63 248.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "180ddf91-593b-44e6-86ba-195095a5f3cf")
-		(property "Reference" "Q4"
-			(at 87.63 255.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 87.63 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.725 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 83.82 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 87.63 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1288305-9fd4-4bee-9a91-f1fd51c1de63")
-		)
-		(pin "3"
-			(uuid "e96ec0a7-8b7e-4a25-8029-7c5b7141eb91")
-		)
-		(pin "2"
-			(uuid "065b1dc4-8c1e-4298-8227-522ded01b964")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13147,7 +13232,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 251.46 0)
+		(at 104.14 251.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13156,7 +13241,7 @@
 		(dnp no)
 		(uuid "210d93b4-c12d-491d-bfa7-cf8417b8abe0")
 		(property "Reference" "D5"
-			(at 98.7425 243.84 0)
+			(at 102.5525 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,7 +13249,7 @@
 			)
 		)
 		(property "Value" "WHITE"
-			(at 98.7425 246.38 0)
+			(at 102.5525 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13257,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 100.33 251.46 0)
+			(at 104.14 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +13266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 251.46 0)
+			(at 104.14 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +13275,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 251.46 0)
+			(at 104.14 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,6 +13474,130 @@
 			(project ""
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 30.48 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2474f01b-71a6-4cc4-9e17-6646ad532af4")
+		(property "Reference" "Q2"
+			(at 27.178 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 27.178 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at -68.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at -168.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 30.48 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -368.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -468.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -568.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -668.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -768.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9348db6c-7a97-44f3-9229-53f0ae60d91d")
+		)
+		(pin "1"
+			(uuid "850ab495-bf3a-482f-b13c-802a13f825bd")
+		)
+		(pin "2"
+			(uuid "b807cfe6-9c62-4ef9-ab22-899aa89a965a")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -13931,7 +14140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 251.46 90)
+		(at 114.3 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13940,7 +14149,7 @@
 		(fields_autoplaced yes)
 		(uuid "3006e86f-429e-4204-ba11-a3e836876142")
 		(property "Reference" "R20"
-			(at 110.49 245.11 90)
+			(at 114.3 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +14157,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 110.49 247.65 90)
+			(at 114.3 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +14165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 110.49 253.238 90)
+			(at 114.3 253.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 251.46 0)
+			(at 114.3 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +14183,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 251.46 0)
+			(at 114.3 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14273,6 +14482,130 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 34.29 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34912588-a26e-4397-b4a0-50e14248b678")
+		(property "Reference" "Q4"
+			(at 30.988 254.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 30.988 257.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at -64.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at -164.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 34.29 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -364.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -464.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -564.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -664.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -764.44 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3bbf2e1d-c36e-493e-873d-50417339a5c8")
+		)
+		(pin "1"
+			(uuid "32ebbe1c-5a67-412d-9c39-144c30ed6bb4")
+		)
+		(pin "2"
+			(uuid "43f6eb53-85b1-4e48-b137-82656c5c18e1")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16162,6 +16495,130 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 200.66 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6074b2f7-a124-4276-8b50-b233bee41cdf")
+		(property "Reference" "Q1"
+			(at 197.358 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 197.358 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at 101.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at 1.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -198.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -298.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -398.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -498.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -598.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "98571230-d4fb-42be-8151-55ba29217674")
+		)
+		(pin "1"
+			(uuid "92f6e167-3dee-4d5c-8a00-e107e2e082c1")
+		)
+		(pin "2"
+			(uuid "757b1e7f-f72a-46c4-aacb-0494a9195986")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 172.72 0)
 		(unit 1)
@@ -16493,6 +16950,130 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "AO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 87.63 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "679d4c92-3034-4914-8967-42ca7254a3da")
+		(property "Reference" "Q3"
+			(at 84.328 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 84.328 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at -11.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at -111.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 87.63 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -311.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -411.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -511.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -611.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -711.1 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "658b8abc-34af-493d-aecb-25f867499339")
+		)
+		(pin "1"
+			(uuid "0eed2d5c-c14f-46d7-a685-bfb0ca294140")
+		)
+		(pin "2"
+			(uuid "fd1cc6df-055e-4dab-8a5c-20ebd3cf4b44")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -17101,79 +17682,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 34.29 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81133c80-5b1f-4ca1-8929-f99c69fd62ec")
-		(property "Reference" "Q5"
-			(at 34.29 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 34.29 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 32.385 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 30.48 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 34.29 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c10f419-32dc-4cf4-b60b-d2791e6a388d")
-		)
-		(pin "3"
-			(uuid "719db24a-c697-4ec4-8839-bb3d4895d59d")
-		)
-		(pin "2"
-			(uuid "e14db705-7715-4172-845e-2fae5227494b")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -18406,7 +18914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 201.93 180)
+		(at 30.48 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18415,7 +18923,7 @@
 		(fields_autoplaced yes)
 		(uuid "99132fad-7184-4d15-94e0-f0b70c62b3e2")
 		(property "Reference" "R16"
-			(at 36.83 200.6599 0)
+			(at 33.02 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18424,7 +18932,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 36.83 203.1999 0)
+			(at 33.02 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18433,7 +18941,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.068 201.93 90)
+			(at 32.258 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18442,7 +18950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 201.93 0)
+			(at 30.48 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18451,7 +18959,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 201.93 0)
+			(at 30.48 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18740,7 +19248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 217.17 90)
+		(at 114.3 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18749,7 +19257,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e5e66a6-1a61-4998-89bb-93ccb1b07fa6")
 		(property "Reference" "R13"
-			(at 110.49 210.82 90)
+			(at 114.3 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18757,7 +19265,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 110.49 213.36 90)
+			(at 114.3 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18765,7 +19273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 110.49 218.948 90)
+			(at 114.3 218.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18774,7 +19282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 217.17 0)
+			(at 114.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18783,7 +19291,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 217.17 0)
+			(at 114.3 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19004,6 +19512,130 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AO3420")
+		(at 87.63 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a22d4b51-0608-4758-bcc7-37232ae09610")
+		(property "Reference" "Q5"
+			(at 84.328 254.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3420"
+			(at 84.328 257.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X125-3N"
+			(at -11.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3420.pdf"
+			(at -111.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 20 V 6A (Ta) 1.4W (Ta) Surface Mount SOT-23-3"
+			(at 87.63 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at -311.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -411.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -511.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at -611.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3420"
+			(at -711.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "156e65ec-bec6-474f-a13a-54d750704998")
+		)
+		(pin "1"
+			(uuid "ef7aae41-4daf-480f-8b42-2f4b7ef2ef82")
+		)
+		(pin "2"
+			(uuid "7b260fea-bf77-4e2a-a38a-efa0c13902df")
+		)
+		(instances
+			(project "projekt"
+				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -19635,57 +20267,50 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 207.01 57.15 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 157.48 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac332a44-de94-4029-9e5a-a2a71dd77dcb")
-		(property "Reference" "Q1"
-			(at 213.36 55.8799 0)
+		(uuid "ac5f5dba-e96c-4cb8-a893-ed2b225df781")
+		(property "Reference" "R1"
+			(at 157.48 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 213.36 58.4199 0)
+		(property "Value" "470"
+			(at 157.48 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 55.245 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 157.48 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 212.09 53.34 0)
+		(property "Datasheet" "~"
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 207.01 57.15 0)
+		(property "Description" "Resistor"
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,18 +20319,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "549d3f51-59ba-4f09-8d04-42f2a8fdfb37")
-		)
-		(pin "3"
-			(uuid "55b8019b-d223-4b33-97ba-5537c9784b4d")
+			(uuid "b62a4c35-f331-40a8-b426-748d9cb55b19")
 		)
 		(pin "2"
-			(uuid "7230a3a7-aed2-4603-b8a6-51e8d04e06fc")
+			(uuid "3227491b-2333-4f2c-860f-8893015c39fa")
 		)
 		(instances
-			(project ""
+			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20323,7 +20945,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 46.99 251.46 0)
+		(at 49.53 251.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20332,7 +20954,7 @@
 		(dnp no)
 		(uuid "b5528668-f278-4602-87eb-9cf1974629a1")
 		(property "Reference" "D7"
-			(at 45.4025 243.84 0)
+			(at 47.9425 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20340,7 +20962,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 45.4025 246.38 0)
+			(at 47.9425 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20348,7 +20970,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 46.99 251.46 0)
+			(at 49.53 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20357,7 +20979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 251.46 0)
+			(at 49.53 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20366,7 +20988,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 46.99 251.46 0)
+			(at 49.53 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20587,79 +21209,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "DO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 87.63 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd4979fe-ebb4-418c-85fa-95186b24bea4")
-		(property "Reference" "Q3"
-			(at 87.63 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 87.63 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.725 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 83.82 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 87.63 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8e0843c-3db5-4bee-8ee1-d40bd95db9b3")
-		)
-		(pin "3"
-			(uuid "528bbe4a-477b-4a97-8ce8-55ca03904ce7")
-		)
-		(pin "2"
-			(uuid "84a80cd7-7792-4a81-a687-85deb78c4d13")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21357,79 +21906,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 200.66 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4eb5595-bae1-4693-a964-86d1f342a116")
-		(property "Reference" "Q2"
-			(at 200.66 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 200.66 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 198.755 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 200.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c2abe98-ac5a-493f-a96e-d636984827f7")
-		)
-		(pin "3"
-			(uuid "886716fb-a6c9-4c3e-86a6-5ebb4ff99977")
-		)
-		(pin "2"
-			(uuid "c3c67a8f-32c5-4225-811f-76410f0ba5d4")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -22195,7 +22671,7 @@
 		(dnp no)
 		(uuid "d9ffda4f-7cd4-4d8d-8dfe-10e3201022f8")
 		(property "Reference" "R9"
-			(at 193.04 73.66 90)
+			(at 193.04 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22203,7 +22679,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 193.04 71.12 90)
+			(at 193.04 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22453,79 +22929,6 @@
 			(project "projekt"
 				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 34.29 248.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc74aaa9-f743-498a-90d5-432628d70927")
-		(property "Reference" "Q6"
-			(at 34.29 255.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 34.29 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 32.385 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 30.48 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 34.29 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ec77f45-81fc-45b3-b5d8-9036bf39d66b")
-		)
-		(pin "3"
-			(uuid "ac077ff1-e891-4c11-94d3-69bed52ff338")
-		)
-		(pin "2"
-			(uuid "bf585654-ef35-423b-9a09-1e8d790cb84d")
-		)
-		(instances
-			(project "projekt"
-				(path "/774ba191-7924-4977-88b1-5b3d0f680481"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -24082,7 +24485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 251.46 90)
+		(at 59.69 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24091,7 +24494,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc4d1e5e-05b8-403e-a7f5-b46871cacaa4")
 		(property "Reference" "R24"
-			(at 57.15 245.11 90)
+			(at 59.69 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24099,7 +24502,7 @@
 			)
 		)
 		(property "Value" "320"
-			(at 57.15 247.65 90)
+			(at 59.69 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24107,7 +24510,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 253.238 90)
+			(at 59.69 253.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24116,7 +24519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 251.46 0)
+			(at 59.69 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24125,7 +24528,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 251.46 0)
+			(at 59.69 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

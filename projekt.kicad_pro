@@ -634,6 +634,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Price/Stock",
+          "name": "TME Electronic Components Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Part Number",
+          "name": "TME Electronic Components Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
