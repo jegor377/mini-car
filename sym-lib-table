@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "TermistorSMD")(type "KiCad")(uri "${KIPRJMOD}/TermistorSMD.kicad_sym")(options "")(descr ""))
 )
