@@ -1,4 +1,4 @@
-24217037722729681
+24222238567749399
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57834,6 +57834,13 @@ large_logo
 0
 0
 Graphics
+small_conan_logo
+
+
+0
+0
+0
+Graphics
 small_logo
 
 
@@ -89991,6 +89998,13 @@ Integrated Circuit
 0
 6
 6
+SamacSys_Parts
+SOT95P285X130-5N
+SOT25-ren1
+Power Supply
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -96066,6 +96080,13 @@ REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de
 screw terminal thread redcube thr power connector
 0
 18
+1
+TestPoint
+BETTERTestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
 1
 TestPoint
 New TestPoint_Pad_2.0x2.0mm
