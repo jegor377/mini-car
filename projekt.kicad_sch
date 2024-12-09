@@ -15254,7 +15254,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "RED"
 			(at 112.014 30.226 90)
 			(effects
 				(font
@@ -15323,7 +15323,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 110.49 262.89 90)
 			(effects
 				(font
@@ -20831,7 +20831,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 110.49 228.6 90)
 			(effects
 				(font
@@ -23491,7 +23491,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 133.35 30.7974 90)
 			(effects
 				(font
@@ -23831,7 +23831,7 @@
 				)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "120"
 			(at 54.61 228.6 90)
 			(effects
 				(font
@@ -25985,7 +25985,7 @@
 				)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "120"
 			(at 55.88 262.89 90)
 			(effects
 				(font
