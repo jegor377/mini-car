@@ -2882,7 +2882,7 @@
 				)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "120"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11238,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Value" "320"
+		(property "Value" "120"
 			(at -0.018 1.524 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19268,7 +19268,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 3.5306 0.2032 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20095,7 +20095,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "RED"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20331,7 +20331,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24377,7 +24377,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
