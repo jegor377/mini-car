@@ -1,4 +1,4 @@
-24225706973216181
+24229174377592471
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89922,6 +89922,13 @@ Connector
 11
 11
 SamacSys_Parts
+15715272
+1571527-2-2
+Switch
+0
+4
+4
+SamacSys_Parts
 CC-14-1
 CC-14-1
 Accelerometer
@@ -89981,6 +89988,13 @@ SamacSys_Parts
 SOT95P237X112-3N
 Micro3
 MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+SOT95P237X125-3N
+MMSS8050-H-TP*
+Transistor BJT NPN
 0
 3
 3
