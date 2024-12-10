@@ -16593,7 +16593,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Slide_DPDT"
+		(property "Value" "SS22T20"
 			(at 245.11 62.23 0)
 			(effects
 				(font
